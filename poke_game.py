@@ -100,7 +100,7 @@ class Combat:
             elif type_defenseur == "normal":
                 multiplicateur = 1
         else:
-            raise ValueError("Type de Pokemon non reconnu.")
+            raise ValueError("Pokemon inconnu.")
 
         puissance_attaque *= multiplicateur
         return puissance_attaque
